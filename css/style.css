@@ -127,6 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen and (min-width: 769px) and (max-width: 1160px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
